@@ -26,7 +26,7 @@ public class VendorServiceDelegate {
 	@Autowired
 	RestTemplate restTemplate;
 
-	@HystrixCommand(fallbackMethod = "callStudentServiceAndGetData_Fallback")
+	@HystrixCommand(fallbackMethod = "callFallbackMethod")
 	public String callVendorServiceAndGetAllDrivers() {
 
 		List<ServiceInstance> instances=discoveryClient.getInstances("vendor-service");
@@ -48,7 +48,7 @@ public class VendorServiceDelegate {
 	}
 
 	@SuppressWarnings("unused")
-	private String callStudentServiceAndGetData_Fallback() {
+	private String callFallbackMethod() {
 		return "CIRCUIT_BREAKER_ENABLED";
 	}
 

@@ -10,6 +10,4 @@ import com.techm.transport.entity.Organization;
 public interface OrgRepository extends CrudRepository<Organization, Long>{
 	Organization findByOrgName(String orgName);
 	Organization findById(Integer id);
-
-	
 }

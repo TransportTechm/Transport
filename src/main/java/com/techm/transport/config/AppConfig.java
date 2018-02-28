@@ -8,7 +8,6 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration 
-@ComponentScan("com.concretepage") 
 @EnableWebMvc   
 @PropertySource("classpath:documentation.properties")
 public class AppConfig extends WebMvcConfigurerAdapter {  
