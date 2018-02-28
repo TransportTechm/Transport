@@ -1,0 +1,166 @@
+2018-Feb-21 15:55:30.075 DEBUG [http-nio-8080-exec-1] o.hibernate.SQL - 
+    select
+        organizati0_.id as id1_5_,
+        organizati0_.name as name2_5_ 
+    from
+        tbl_organization organizati0_
+2018-Feb-21 15:56:27.734 INFO  [restartedMain] c.t.t.TransportApplication - Starting TransportApplication on INBASDLP01802 with PID 15996 (D:\Eclipse-Workspaces\SpringBoot\TransportService\target\classes started by ST00342171 in D:\Eclipse-Workspaces\SpringBoot\TransportService)
+2018-Feb-21 15:56:27.734 INFO  [restartedMain] c.t.t.TransportApplication - No active profile set, falling back to default profiles: default
+2018-Feb-21 15:56:28.564 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Feb-21 15:56:28.564 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-Feb-21 15:56:28.596 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Feb-21 15:56:28.866 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Feb-21 15:56:28.895 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-Feb-21 15:56:28.959 INFO  [restartedMain] o.h.t.h.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-Feb-21 15:56:29.437 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-Feb-21 15:56:29.611 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-Feb-21 15:56:29.611 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-Feb-21 15:56:29.611 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-Feb-21 15:56:29.736 INFO  [restartedMain] c.t.t.TransportApplication - Started TransportApplication in 2.055 seconds (JVM running for 31.207)
+2018-Feb-21 15:56:49.035 INFO  [restartedMain] c.t.t.TransportApplication - Starting TransportApplication on INBASDLP01802 with PID 15996 (D:\Eclipse-Workspaces\SpringBoot\TransportService\target\classes started by ST00342171 in D:\Eclipse-Workspaces\SpringBoot\TransportService)
+2018-Feb-21 15:56:49.035 INFO  [restartedMain] c.t.t.TransportApplication - No active profile set, falling back to default profiles: default
+2018-Feb-21 15:56:49.705 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Feb-21 15:56:49.705 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-Feb-21 15:56:49.736 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Feb-21 15:56:49.975 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Feb-21 15:56:49.990 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-Feb-21 15:56:50.037 INFO  [restartedMain] o.h.t.h.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-Feb-21 15:56:50.422 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-Feb-21 15:56:50.564 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-Feb-21 15:56:50.564 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-Feb-21 15:56:50.580 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-Feb-21 15:56:50.690 INFO  [restartedMain] c.t.t.TransportApplication - Started TransportApplication in 1.702 seconds (JVM running for 52.158)
+2018-Feb-21 15:57:40.658 INFO  [restartedMain] c.t.t.TransportApplication - Starting TransportApplication on INBASDLP01802 with PID 15996 (D:\Eclipse-Workspaces\SpringBoot\TransportService\target\classes started by ST00342171 in D:\Eclipse-Workspaces\SpringBoot\TransportService)
+2018-Feb-21 15:57:40.658 INFO  [restartedMain] c.t.t.TransportApplication - No active profile set, falling back to default profiles: default
+2018-Feb-21 15:57:41.327 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Feb-21 15:57:41.327 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-Feb-21 15:57:41.343 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Feb-21 15:57:41.582 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Feb-21 15:57:41.598 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-Feb-21 15:57:41.645 INFO  [restartedMain] o.h.t.h.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-Feb-21 15:57:42.037 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-Feb-21 15:57:42.162 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-Feb-21 15:57:42.162 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-Feb-21 15:57:42.177 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-Feb-21 15:57:42.297 INFO  [restartedMain] c.t.t.TransportApplication - Started TransportApplication in 1.684 seconds (JVM running for 103.764)
+2018-Feb-21 15:59:32.846 INFO  [restartedMain] c.t.t.TransportApplication - Transport application has started
+2018-Feb-21 15:59:32.933 INFO  [restartedMain] c.t.t.TransportApplication - Starting TransportApplication on INBASDLP01802 with PID 15996 (D:\Eclipse-Workspaces\SpringBoot\TransportService\target\classes started by ST00342171 in D:\Eclipse-Workspaces\SpringBoot\TransportService)
+2018-Feb-21 15:59:32.933 INFO  [restartedMain] c.t.t.TransportApplication - No active profile set, falling back to default profiles: default
+2018-Feb-21 15:59:33.955 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2018-Feb-21 15:59:33.958 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-Feb-21 15:59:33.975 INFO  [localhost-startStop-1] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2018-Feb-21 15:59:34.234 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-Feb-21 15:59:34.252 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-Feb-21 15:59:34.297 INFO  [restartedMain] o.h.t.h.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2018-Feb-21 15:59:34.680 INFO  [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-Feb-21 15:59:34.830 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-Feb-21 15:59:34.832 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-Feb-21 15:59:34.840 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-Feb-21 15:59:34.946 INFO  [restartedMain] c.t.t.TransportApplication - Started TransportApplication in 2.091 seconds (JVM running for 216.416)
+2018-Feb-21 15:59:54.940 INFO  [restartedMain] c.t.t.TransportApplication - Transport application has started
+2018-Feb-21 16:07:51.236 ERROR [restartedMain] o.s.b.l.LoggingApplicationListener - Cannot set level: INFO, STDOUT for 'org.techm'
+2018-Feb-21 21:32:38.780 ERROR [restartedMain] o.s.b.l.LoggingApplicationListener - Cannot set level: INFO, STDOUT for 'org.techm'
+2018-Feb-21 21:32:42.636 ERROR [restartedMain] o.s.b.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalArgumentException: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.techm.transport.TransportApplication.main(TransportApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalArgumentException: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalArgumentException: URL must start with 'jdbc'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalArgumentException: URL must start with 'jdbc'
+	at org.springframework.util.Assert.isTrue(Assert.java:92)
+	at org.springframework.boot.jdbc.DatabaseDriver.fromJdbcUrl(DatabaseDriver.java:267)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:239)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:184)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:42)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat.dataSource(DataSourceConfiguration.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 40 common frames omitted
+2018-Feb-21 21:33:28.751 ERROR [restartedMain] o.s.b.l.LoggingApplicationListener - Cannot set level: INFO, STDOUT for 'org.techm'
+2018-Feb-21 21:33:53.452 DEBUG [http-nio-8080-exec-7] o.hibernate.SQL - 
+    select
+        route0_.route_no as route_no1_6_,
+        route0_.departure_time as departur2_6_,
+        route0_.destination as destinat3_6_,
+        route0_.name as name4_6_,
+        route0_.origin as origin5_6_ 
+    from
+        tbl_route route0_
+2018-Feb-21 21:33:53.504 DEBUG [http-nio-8080-exec-7] o.hibernate.SQL - 
+    select
+        routebusal0_.id as id1_0_,
+        routebusal0_.driver_name as driver_n2_0_,
+        routebusal0_.tbl_journey_type_id as tbl_jour3_0_,
+        routebusal0_.tbl_route_route_no as tbl_rout4_0_,
+        routebusal0_.seat_capacity as seat_cap5_0_,
+        routebusal0_.vehicle_registration_number as vehicle_6_0_ 
+    from
+        tbl_allocate_to_bus_route routebusal0_ 
+    where
+        routebusal0_.tbl_route_route_no=?
+2018-Feb-21 21:33:53.510 DEBUG [http-nio-8080-exec-7] o.hibernate.SQL - 
+    select
+        routebusal0_.id as id1_0_,
+        routebusal0_.driver_name as driver_n2_0_,
+        routebusal0_.tbl_journey_type_id as tbl_jour3_0_,
+        routebusal0_.tbl_route_route_no as tbl_rout4_0_,
+        routebusal0_.seat_capacity as seat_cap5_0_,
+        routebusal0_.vehicle_registration_number as vehicle_6_0_ 
+    from
+        tbl_allocate_to_bus_route routebusal0_ 
+    where
+        routebusal0_.tbl_route_route_no=?

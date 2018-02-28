@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: transportservice2
+  profiles:
+    active: prod
