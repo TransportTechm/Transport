@@ -31,11 +31,11 @@
 		</dependency>
 
 		<!-- ****************** dependencies added for spring cloud integration 
-			**************** -->
+			****************
 		<dependency>
 			<groupId>io.pivotal.spring.cloud</groupId>
 			<artifactId>spring-cloud-services-starter-service-registry</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>io.pivotal.spring.cloud</groupId>
 			<artifactId>spring-cloud-services-starter-config-client</artifactId>

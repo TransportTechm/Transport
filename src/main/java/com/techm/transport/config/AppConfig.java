@@ -7,7 +7,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-@Configuration 
+@Configuration
+@ComponentScan("com.techm.transport")
 @EnableWebMvc   
 @PropertySource("classpath:documentation.properties")
 public class AppConfig extends WebMvcConfigurerAdapter {  

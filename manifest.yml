@@ -1,7 +1,8 @@
 ---
 applications:
-- name: trasnportservice2
+- name: Transport-Service
   memory: 1024M
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
   - transportserviceDB
+  - CentralServiceRegistry

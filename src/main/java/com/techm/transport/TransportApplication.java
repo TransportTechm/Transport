@@ -27,10 +27,10 @@ public class TransportApplication {
 		SpringApplication.run(TransportApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	public SimpleCORSFilter corsFilter(){
 		return new SimpleCORSFilter();
-	}
+	}*/
 }
 
 @RefreshScope
