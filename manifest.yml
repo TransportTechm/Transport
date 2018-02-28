@@ -2,7 +2,7 @@
 applications:
 - name: Transport-Service
   memory: 1024M
-  path: /target/transportservice-1.0.0-SNAPSHOT.jar
+  path: C:/Users/Administrator/.jenkins/workspace/TransportJava/target/transportservice-1.0.0-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
   - transportserviceDB
