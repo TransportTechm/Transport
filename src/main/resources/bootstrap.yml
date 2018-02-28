@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: TransportServiceT
+  profiles:
+    active: test
