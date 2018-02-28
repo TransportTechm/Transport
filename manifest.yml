@@ -1,8 +1,8 @@
 ---
 applications:
-- name: TransportServiceT
+- name: TransportServiceDemo
   memory: 1024M
-  path: ./target/transportservice-1.0.0-SNAPSHOT.jar
+  path: ./target/transportservice*.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
   - Transport-Service-DB
