@@ -1,6 +1,6 @@
 ---
 applications:
-- name: TransportServiceDemo
+- name: TransportService
   memory: 1024M
   path: ./target/transportservice-1.0.0-SNAPSHOT.jar
   #timeout: 180
