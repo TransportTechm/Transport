@@ -3,7 +3,7 @@ applications:
 - name: TransportServiceDemo
   memory: 1024M
   path: ./target/transportservice-1.0.0-SNAPSHOT.jar
-  timeout: 600
+  #timeout: 180
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
   - Transport-Service-DB
