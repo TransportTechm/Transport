@@ -29,7 +29,7 @@ public class VendorServiceDelegate {
 	@HystrixCommand(fallbackMethod = "callFallbackMethod")
 	public String callVendorServiceAndGetAllDrivers() {
 
-		List<ServiceInstance> instances=discoveryClient.getInstances("vendor-service");
+		List<ServiceInstance> instances=discoveryClient.getInstances("VendorServiceT");
 		ServiceInstance serviceInstance=instances.get(0);
 
 		String baseUrl=serviceInstance.getUri().toString();
