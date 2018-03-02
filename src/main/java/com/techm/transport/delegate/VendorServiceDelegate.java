@@ -33,7 +33,7 @@ public class VendorServiceDelegate {
 		ServiceInstance serviceInstance=instances.get(0);
 
 		String baseUrl=serviceInstance.getUri().toString();
-		baseUrl = baseUrl+"/1.0/drivers";
+		baseUrl = baseUrl+"/1.0/dris";
 		String response=null;
 		try{
 			response=restTemplate.exchange(baseUrl,
