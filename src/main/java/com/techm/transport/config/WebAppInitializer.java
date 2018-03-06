@@ -1,4 +1,4 @@
-package com.techm.transport.config;
+/*package com.techm.transport.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -16,3 +16,4 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 		return new String[] { "/" };
 	}
 }
+*/
