@@ -2,6 +2,7 @@
 applications:
 - name: TransportServiceT
   memory: 1024M
+  instances: 2
   path: ./target/transportservice-1.0.0-SNAPSHOT.jar
   timeout: 180
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
@@ -9,3 +10,4 @@ applications:
   - Transport-Service-DB
   - ServiceRegistry-Transport
   - ConfigServer-Transport
+  - AutoScaler-Transport
